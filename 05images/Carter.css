@@ -1,0 +1,140 @@
+body {
+    font-family: "Oxygen", serif;
+    margin: 0;
+}
+header {
+    background-color: #283d3b;
+    padding: 1rem 10px;
+    text-align: center;
+    color: rgb(2, 16, 63);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+nav{
+    background-color: rgb(2, 16, 63);
+}
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #83cdfc;
+    padding: .83rem .83rem;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+nav li.active a {
+    background-color: #024873;
+    color: gold;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+main {
+    padding: 1rem 10px;
+    background-color: #ffffff;
+}
+
+main h1 {
+    color: gold;
+}
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+main ol {
+    background-color: #83cdfc;
+    padding: .5rem 30px;
+}
+main dl dt {
+color: red;
+font-weight: 700;
+margin-top: 1rem;
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+ list-style-type: circle;
+}
+main ul li {
+    margin-bottom: .5rem;
+    line-height: 125%;
+    font-size: .9rem;
+}
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+font-weight: 300;
+}
+main address {
+font-style: normal;
+background-color: gold;
+padding: .5rem;
+border-radius: 16px;
+border: 1px solid #024873;
+width: 200 px;
+}
+main a {
+    color: #0277c0;
+}
+main a:hover {
+    color: rgb(87, 86, 86);
+}
+
+figure.portfolio-item {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    }
+    
+    figure.portfolio-item img {
+        width: 100%;
+        height: auto;
+    }
+    figure.portfolio-item figcaption {
+        font-size: .75rem;
+        text-align: center;
+    }
+    div.portfolio-item {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    div.portfolio-item figure{
+       margin: .5rem 2% 0 0;
+        
+    }
+    div.portfolio-item figcaption {
+        font-size: .8rem;
+        text-align: center;
+        color: #0277c0;
+    }
+
+footer {
+    background-color: #efefef;
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
