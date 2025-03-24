@@ -140,7 +140,7 @@ figure.portfolio-item {
     }
     
     
-    .myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    .myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea, .myform [type=email] {
       display: block;
     }
     .myform [type=text], .myform [type=tel], .myform select, .myform textarea {
