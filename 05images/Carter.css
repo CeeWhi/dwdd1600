@@ -88,7 +88,6 @@ background-color: gold;
 padding: .5rem;
 border-radius: 16px;
 border: 1px solid #024873;
-width: 200 px;
 }
 main a {
     color: #0277c0;
@@ -96,6 +95,30 @@ main a {
 main a:hover {
     color: rgb(87, 86, 86);
 }
+
+
+div.index-item {
+    display: flex;
+}
+
+figure.index-item {
+    width: 90%;
+     height: auto;
+     margin: 0 0 0 2%;
+    float: right;
+    text-wrap: wrap
+
+    }
+    
+    figure.index-item {
+        font-size: .75rem;
+        text-align: center
+    }
+
+
+
+
+
 
 figure.portfolio-item {
     width: 30%;
@@ -128,7 +151,7 @@ figure.portfolio-item {
     .myform fieldset {
         border: solid #43a0b6 1px;
         border-radius: 3px;
-        margin bottom: 1rem 0;
+        margin-bottom: 1rem;
     }
     .myform legend {
         color: #43a0b6;
@@ -145,7 +168,7 @@ figure.portfolio-item {
     }
     .myform [type=text], .myform [type=tel], .myform select, .myform textarea {
         border: solid #888 1px;
-        padding .3rem;
+        padding:.3rem;
         width: 250px;
         border-radius: .3rem;
         font-family: 'Montserrat Alternates', sans-serif;
