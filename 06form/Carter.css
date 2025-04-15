@@ -39,6 +39,28 @@ nav li a:hover {
 main {
     padding: 1rem 10px;
     background-color: #ffffff;
+
+
+div.index-item {
+    display: flex;
+}
+
+figure.index-item {
+    width: 90%;
+     height: auto;
+     margin: 0 0 0 2%;
+    float: right;
+    text-wrap: wrap
+
+    }
+    
+    figure.index-item {
+        font-size: .75rem;
+        text-align: center
+    }
+
+
+
 }
 
 main h1 {
