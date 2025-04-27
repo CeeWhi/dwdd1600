@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Budget Vacations</title>
+    <link rel="stylesheet" href="vacation.css">
+</head>
+<body>
+    <header>
+        <h1>Budget Vacations</h1>
+        <p>Your affordable dream getaway awaits!</p>
+        <img src="images/logo.png" alt="Budget Vacations Logo">
+    </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="video.html">Videos</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Request More Information</h1>
+        
+            <form action="thanks.html" method="get">
+                <fieldset>
+                    <legend>Personal Information</legend>
+        
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+        
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+        
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Travel Preferences</legend>
+        
+                    <label for="destination">Destination:</label>
+                    <select id="destination" name="destination" required>
+                        <option value="">--Please choose an option--</option>
+                        <option value="paris">Paris</option>
+                        <option value="tokyo">Tokyo</option>
+                        <option value="maui">Maui</option>
+                    </select>
+        
+                    <p>Preferred Travel Season:</p>
+                    <div class="radio-group">
+                        <label><input type="radio" name="season" value="spring" required> Spring</label><br>
+                        <label><input type="radio" name="season" value="summer" required> Summer</label><br>
+                        <label><input type="radio" name="season" value="winter" required> Winter</label>
+                    </div>
+        
+                    <label for="comments">Additional Comments:</label>
+                    <textarea id="comments" name="comments" rows="5"></textarea>
+        
+                </fieldset>
+        
+                <button type="submit">Submit Request</button>
+        
+            </form>
+        
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Budget Vacations | All rights reserved.</p>
+    </footer>
+</body>
+</html>
